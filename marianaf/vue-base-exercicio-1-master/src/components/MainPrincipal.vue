@@ -1,8 +1,28 @@
+<script>
+import BlocoNovo from "@/components/BlocoNovo.vue";
+
+export default {
+  data() {
+    return {
+      nomes2: ["Mariana", "Ariane"],
+    };
+  },
+  components: { BlocoNovo  },
+};
+</script>
 <template>
   <main id="content">
-    <article class="block">
-    <h1>Por meio de aulas práticas e teóricas, o aluno aprende a arquitetar estruturas de softwares e sistemas, além de estudar as mais variadas e modernas linguagens da programação, seguindo sempre as normas técnicas vigentes.</h1>
-       </article>
-   
+    <BlocoNovo id="a" :nomes="['Amanda', 'Antonia']" />
+
+    <BlocoNovo id="b" class="alerta" titulo="Alunos" :nomes="nomes2"/>
+
+    <BlocoNovo id="c" />
+
+    <BlocoNovo id="d" />
+
+    <BlocoNovo id="e" />
+
+    <BlocoNovo id="f" />
+
   </main>
 </template>

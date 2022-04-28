@@ -9,6 +9,8 @@ export default {};
       <li>Professores</li>
       <li>Horarios</li>
       <li>Tempo de Curso</li>
+      <li>Relato dos alunos</li>
+      <li>Estágio</li>
     </ul>
   </aside>
 </template>

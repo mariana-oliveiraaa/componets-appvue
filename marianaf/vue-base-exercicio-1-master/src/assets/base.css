@@ -36,16 +36,36 @@ body {
 }
 #sidenav {
   grid-area: sidenav;
+  font-size: 30px;
 }
 
 .block {
-  width: 300px;
+  width: 215px;
   height: 300px;
   border: 1px solid rgb(28, 28, 58);
   border-radius: 15px;
   padding: 10px;
   margin: 10px;
-  background-color: rgb(164, 91, 233);
+  background-color: rgb(213, 77, 206);
+  font-size: 30px ;
   
- 
 }
+#a {
+background-color: rgb(136, 238, 204);
+}
+#b {
+  background-color: rgb(129, 166, 227);
+  }
+
+  #c {
+    background-color: rgb(207, 134, 220);
+    }
+    #d {
+      background-color: rgb(235, 159, 216);
+      }
+      #e {
+        background-color: rgb(196, 98, 121);
+        }
+        #f {
+          background-color: rgb(238, 163, 88);
+          }
